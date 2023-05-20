@@ -110,6 +110,10 @@
 .nav ul li a{
   text-decoration: none;
 }
+.nav ul li a:hover{
+color: #ffc83d;
+border-bottom: 2px solid black;
+}
 
 
 
@@ -146,6 +150,18 @@
     border: 5px solid #ffc83d;
 }
 
+#resumeBtn{
+padding: 10px 20px;
+border-radius: 10px;
+border: none;
+background-color: #ffc83d;
+color: black;
+font-size: 24px;
+}
+#resumeBtn:hover{
+background-color: black;
+color: #ffc83d;
+}
 /* About Section */
 .about{
     padding: 100px 0;
@@ -412,6 +428,9 @@ flex-direction: column;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.mail a{
+  text-decoration: none;
 }
 #conLogo{
   font-size: 35px;
