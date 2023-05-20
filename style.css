@@ -309,7 +309,7 @@ flex-direction: column;
 
 }
 .project-card{
-    width: 80%;
+    width: 70%;
     height: 450px;
     display: flex;
     align-items: center;
@@ -322,7 +322,7 @@ flex-direction: column;
     background-color: #fff;
 }
 .project-card2{
-    width: 80%;
+    width: 70%;
     height: 450px;
     display: flex;
     align-items: center;
@@ -339,10 +339,15 @@ flex-direction: column;
 .video{
   height: 500px;
   width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.video video{
-  height: 500px;
-  width: 500px;
+.video img{
+  height: 400px;
+  width: 400px;
+  border: 2px solid black;
+  border-radius: 10px;
 }
 .description{
     flex: 1;
